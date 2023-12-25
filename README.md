@@ -93,6 +93,10 @@ insert  into `order`(`order_id`,`order_code`,`customer_id`,`passenger_name`,`pas
 
 After we already set the database now we prepare to running the server and try following routes to test the code
 
+to set up project and import fix , first run below command
+go mod init github.com/raogopal5/Go_Crud_MySQL 
+and go get -u github.com/go-sql-driver/mysql
+
 running the server : go to the project folder from your cmd and running
 
 ```

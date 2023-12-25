@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/boantp/go-api-ecomm/config"
+	"github.com/raogopal5/Go_Crud_MySQL/config"
 )
 
 type Car struct {
@@ -16,7 +16,7 @@ type Car struct {
 	CarStatus    int
 }
 
-//if we want to give json reponses
+// if we want to give json reponses
 type responseData struct {
 	RespCode string
 	RespDesc string

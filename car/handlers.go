@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"net/http"
 
-	"github.com/boantp/go-api-ecomm/config"
+	"github.com/raogopal5/Go_Crud_MySQL/config"
 )
 
 func Index(w http.ResponseWriter, r *http.Request) {
